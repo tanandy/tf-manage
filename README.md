@@ -21,10 +21,9 @@ cd tf-manage
 # - terraform itself
 # - the tf wrapper
 # - and bash completion for the wrapper
-./bin/tf_install.sh
 
 # you can customize the version of terraform that is installed
-./bin/tf_install.sh 1.0.11
+./bin/tf_install.sh 1.1.9
 
 # after the first install, you can use tf_install directly, as it is added to $PATH
 # use it as a lightweight terraform version manager to switch back and forward between multiple versions
