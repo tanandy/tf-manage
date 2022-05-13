@@ -13,7 +13,7 @@ brew install unzip git bash-completion gnu-which coreutils wget
 ## Installation
 ```bash
 # clone repo and
-git clone --recurse-submodules git@github.com:adobe/tf-manage.git
+git clone --recurse-submodules https://github.com/tanandy/tf-manage.git
 cd tf-manage
 
 # run installer
